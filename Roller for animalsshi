@@ -2440,10 +2440,7 @@ RunService.RenderStepped:Connect(function()
                         end)
                     end
                 end) -- Closes the RenderStepped:Connect(function() block
-            end -- Closes the outer initialization scope if applicable
-        end
-    end
-})
+
 
 -- ============================================================================
 -- SECTION 1: EGGS ESP CONTROLLERS
